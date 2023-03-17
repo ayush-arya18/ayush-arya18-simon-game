@@ -38,7 +38,7 @@ function nextSequence(){
 }
 
 function playSound(name){
-    var soound=new Audio("sounds/"+name+".mp3");
+    var soound=new Audio(name+".mp3");
     soound.play();
 }
 
